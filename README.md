@@ -44,8 +44,9 @@ Linux commands in git bash:
 + To edit file use `nano filename`.It will open nano editor in that write your code.To save and exit nano editor use `ctrl+x` and then click `y` it will goto save mode file path `Filename name to write : filename` and then click on `Enter`.It will go back to project folder.Then see your edited code by `cat filename`
 + To remove any file use `rm filename`
 + To remove folder `rm -r foldername`
-Git commands:
-=============
+
+##Git commands:
+===============
 + First we need to initialize git repositroy by `git init`
 + To see  git folder use `ls -a`(It will show hidden files also)
 
@@ -120,6 +121,44 @@ Delete commit:
 + To check number of brances we have to use `git branch`
 + To create new branch use `git branch newbranchname`
 + To change from one brnach to another branch use `git checkout newbranchname`
++ Delete branch in local git
+	+ To delete particular branch after merge  `git branch -d branchname`
+	+ To delete particular branch before merge `git branch -D branchname` 
++ Delete branch in remote
+	+ To delete particular branch in github `git push remotename --delete branchname` 
+	+ Ex: `git push origin --delete kalyan`
+
+
+### remote commands:
+====================
++ To check remote mode we have to use `git remote`
++ To change remotename use`git remote origin origin5`
++ To delete any remote `git remote remove remotename`
+
+### Fork:
+=========
++ To copy from remote to remote(copy one github account project to another github account)
+
+### contribute:
+===============
++ Add changes to fork project locally and contribute to owner
+
+
+### Steps to contribute:
+-------------------------
+1. Fork the repository
+2. Clone the repository
+3. Create a new branch and add changes to the source code
+4. Push the changes to remote
+5. Compare & pull request
+
+### Collaborate:
+================
+
++ People who added by m owner they can able to modify files(add/delete) but not delete the project 
+
+
+
 
 
 
