@@ -112,3 +112,27 @@ Delete commit:
 6. Check username and email once byusing  `git config --global user.name ` and `git config  --global user.email`
 7. Add remote origin from the github repository by using `git remote add origin "url"`
 8. Push the source code in to github by using `git push origin master or git push -u origin master`
+
+
+## Branch:
+==========
+
++ To check number of brances we have to use `git branch`
++ To create new branch use `git branch newbranchname`
++ To change from one brnach to another branch use `git checkout newbranchname`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
