@@ -44,6 +44,7 @@ Linux commands in git bash:
 + To edit file use `nano filename`.It will open nano editor in that write your code.To save and exit nano editor use `ctrl+x` and then click `y` it will goto save mode file path `Filename name to write : filename` and then click on `Enter`.It will go back to project folder.Then see your edited code by `cat filename`
 + To remove any file use `rm filename`
 + To remove folder `rm -r foldername`
++ To move all files at a time `git rm -r cached .`
 
 ##Git commands:
 ===============
