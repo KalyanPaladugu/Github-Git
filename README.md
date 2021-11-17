@@ -75,6 +75,7 @@ Configurations:
 + We can check the files in first commit by using SHA key with command of `git checkout xxxxxxx`(first 7characters of SHA key).Which means we can get the data at the first commit.Similary we can get the data @ nth position commit
 
 + After switch to particular commit you can update data and then commit finalupdated data.
++ To check the number of commits ` git rev-list --count HEAD`
 
 Note:
 =====
