@@ -129,7 +129,7 @@ Delete commit:
 + Delete branch in remote
 	+ To delete particular branch in github `git push remotename --delete branchname` 
 	+ Ex: `git push origin --delete kalyan`
-
++ To merge brach you have to use `git merge newbrachname`.It will add the source code in newbranchname to active branch (master)
 ### remote commands:
 ====================
 + To check remote mode we have to use `git remote`
